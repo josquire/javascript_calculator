@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" type='text/css' href="assets/stylesheets/styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <hr/>
+    <div class='container'>
+    <div class="row">
+      <h4 id='result' class='input col s4 offset-s4'></h4>
+    </div>
+    <div class="row">
+      <button class='col s1 offset-s4 myButton' onClick='ugh()'>C</button>
+      <button class='col s1 myButton' onClick='mem()'>Mem</button>
+      <button class='col s1 myButton' onClick='memClear()'>MC</button>
+      <button class='col s1 myButton' onClick='percent()'>%</button>
+    </div>
+    <div class="row">
+      <button class='col s1 offset-s4 myButton' onClick='number(7)'>7</button>
+      <button class='col s1 myButton' onClick='number(8)'>8</button>
+      <button class='col s1 myButton' onClick='number(9)'>9</button>
+      <button class='col s1 myButton' onClick='number("/")'>/</button>
+    </div>
+    <div class="row">
+      <button class='col s1 offset-s4 myButton' onClick='number(4)'>4</button>
+      <button class='col s1 myButton' onClick='number(5)'>5</button>
+      <button class='col s1 myButton' onClick='number(6)'>6</button>
+      <button class='col s1 myButton' onClick='number("*")'>*</button>
+    </div>
+    <div class="row">
+      <button class='col s1 offset-s4 myButton' onClick='number(3)'>3</button>
+      <button class='col s1 myButton' onClick='number(2)'>2</button>
+      <button class='col s1 myButton' onClick='number(1)'>1</button>
+      <button class='col s1 myButton' onClick='number("-")'>-</button>
+    </div>
+    <div class="row">
+      <button class='col s1 offset-s4 myButton' onClick='number(0)'>0</button>
+      <button class='col s1 myButton' onClick='number(".")'>.</button>
+      <button class='col s1 myButton' onClick='number("+")'>+</button>
+      <button class='col s1 myButton' onClick='answer()'>=</button>
+    </div>
+
+      <script type="text/javascript" src="assets/javascripts/scripts.js"></script>
+    </div>
+  </body>
+</html>
